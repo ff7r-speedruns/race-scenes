@@ -1,5 +1,3 @@
-![Twitch Background](docs/Twitch Background.png)
-
 # FF7 Remake Speedrun Races - OBS Scenes
 
 This repository contains the OBS scenes for the FF7 Remake Speedrun Community Races. These are provided to the community for use in speedrun events and races.
