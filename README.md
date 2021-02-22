@@ -1,3 +1,5 @@
+![Twitch Background](docs/Twitch Background.png)
+
 # FF7 Remake Speedrun Races - OBS Scenes
 
 This repository contains the OBS scenes for the FF7 Remake Speedrun Community Races. These are provided to the community for use in speedrun events and races.
@@ -15,6 +17,8 @@ All layouts can be imported from the Scene Collections menu in OBS. This will im
 
 ### Race Layouts
 
+![image-20210222214541658](docs/image-20210222214541658.png)
+
 There are images that will need to have their filename/location set in OBS after import. The resources are all in the [resources](resources) directory.
 
 - `img: Logo` should be `logo.png`
@@ -30,11 +34,15 @@ All the main graphics overlays are generated from a custom [NodeCG application](
 
 This is a layout the racers can use on their own streams. There is no extra installation steps required as it does not have any images.
 
+![image-20210222214257360](docs/image-20210222214257360.png)
+
 ## Usage
 
 ### Race Layouts
 
 The scenes are split into 2 sections, scenes and sources. The layouts make heavy use of scenes as sources inside other scenes.
+
+![image-20210222214610005](docs/image-20210222214610005.png)
 
 The scenes are prefixed with `scene: ` and are what you should switch between. There are scenes for Holding/Waiting Start, Interviews, Interviews with a Host, Be Right Back and Ending scenes. These all heavily rely on the graphics output from Race Control.
 
@@ -65,6 +73,8 @@ It's more complicated to do separate audio, but does give you more control over 
 ### Runner Layout
 
 The runner layout is made up of one scene for the actual layout you will stream and another 3 scenes to be used as sources.
+
+![image-20210222214331553](docs/image-20210222214331553.png)
 
 - `[race] Stream` - This is the scene you need to Stream during the race. It has your camera, game and own-content in the right places. You don't need to modify it.
 - `[race] Camera` - This is where you should add your camera. It should fully overlap the blue area and the resolution will be 640x480.
