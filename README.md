@@ -4,10 +4,10 @@ This repository contains the OBS scenes for the FF7 Remake Speedrun Community Ra
 
 There are separate scene collections based on number of runners as well as a scene collection for the runners to use to make restreaming easier. This contains no images or complex settings, so can just be imported directly into OBS from the Scenes menu.
 
-- [3 Runners.json](3 Runners.json) - Layout for 3 runners
-- [4 Runners.json](4 Runners.json) - Layout for 4 runners
-- [5 Runners.json](5 Runners.json) - Layout for 5 runners
-- [Runner Layout.json](Runner Layout.json) - A layout to be used by the runners on their own streams to make it easier.
+- 3 Runners.json - Layout for 3 runners
+- 4 Runners.json - Layout for 4 runners
+- 5 Runners.json - Layout for 5 runners
+- Runner Layout.json - A layout to be used by the runners on their own streams to make it easier.
 
 ## Installation
 
